@@ -126,7 +126,7 @@ msgstr "Novo..."
 
 #: ../data/glade/AdditionListSlave.ui.h:2
 msgid "_Delete"
-msgstr "E_xcluir"
+msgstr "_Excluir"
 
 #: ../data/glade/AdditionListSlave.ui.h:3 ../data/glade/SearchEditor.ui.h:2
 #: ../stoqlib/gui/test/test_productsearch.py:72
@@ -206,12 +206,12 @@ msgstr "Conta bancária:"
 
 #: ../data/glade/BaseCashSlave.ui.h:2 ../data/glade/TillOpening.ui.h:2
 msgid "Balance:"
-msgstr "Balanço:"
+msgstr "Saldo:"
 
 #. Do not translate $CURRENCY
 #: ../data/glade/BaseCashSlave.ui.h:4
 msgid "Cash Amount ($CURRENCY):"
-msgstr "Quantia ($CURRENCY):"
+msgstr "Quantia em dinheiro ($CURRENCY):"
 
 #: ../data/glade/BasePaymentDataEditor.ui.h:1
 #: ../data/glade/LonelyPaymentDetailsDialog.ui.h:2
@@ -586,8 +586,7 @@ msgid ""
 "<b>Consignment Items - Fill the quantity sold and returned of those items:</"
 "b>"
 msgstr ""
-"<b>Itens consignados - Preencha as quantidades vendidas e retornadas deste "
-"item:</b>"
+"<b>Itens consignados - Preencha as quantidades vendidas e retornadas deste item:</b>"
 
 #: ../data/glade/CostCenterDialog.ui.h:1
 #: ../data/glade/DeviceConstantEditor.ui.h:2
@@ -608,15 +607,15 @@ msgstr "Transações de estoque"
 
 #: ../data/glade/CostCenterDialog.ui.h:7
 msgid "Stock Decreases"
-msgstr "Saídas manuais"
+msgstr "Saídas de estoque"
 
 #: ../data/glade/CreateDatabaseStep.ui.h:1 ../stoq/gui/config.py:683
 msgid ""
 "Creating a new database for Stoq, depending on the speed of your computer "
 "and the server it may take a couple of minutes to finish."
 msgstr ""
-"Criando um banco de dados novo para o Stoq. Dependendo da velocidade do seu "
-"computador e do servidor, isso pode levar alguns minutos para terminar."
+"Criando um banco de dados novo para o Stoq, dependendo da velocidade do seu computador "
+"e o servidor; isso pode levar alguns minutos para concluir."
 
 #: ../data/glade/CreateDatabaseStep.ui.h:2
 msgid "Show details..."
@@ -645,7 +644,7 @@ msgstr "Há instruções adicionais"
 
 #: ../data/glade/CreditProviderEditor.ui.h:1
 msgid "Provider Id:"
-msgstr "Id do fornecedor"
+msgstr "Identificação do fornecedor"
 
 #: ../data/glade/CreditProviderEditor.ui.h:2
 #: ../data/glade/TransporterDataSlave.ui.h:2
@@ -654,7 +653,7 @@ msgstr "Data de abertura do contrato:"
 
 #: ../data/glade/CreditProviderEditor.ui.h:3
 msgid "Short Name:"
-msgstr "Nome curto:"
+msgstr "Como você gostaria de ser chamado:"
 
 #: ../data/glade/CreditProviderMethodSlave.ui.h:1
 msgid "Credit Provider:"
@@ -731,7 +730,7 @@ msgstr "Senha:"
 
 #: ../data/glade/DatabaseSettingsStep.ui.h:7
 msgid "Database Name:"
-msgstr "Nome do banco:"
+msgstr "Nome do banco de dados:"
 
 #: ../data/glade/DatabaseSettingsStep.ui.h:8
 msgid "Authentication:"
@@ -920,9 +919,9 @@ msgstr ""
 "perdido no começo se você nunca utilizou o Stoq antes. O manual também está "
 "<a href=\"http://doc.stoq.com.br/manual/\">disponível online</a>.\n"
 "\n"
-"Se você está com problemas na instalação, precisa de ajuda importando seu "
+"Se você está com problemas na instalação, precisa de ajuda para importar seu "
 "banco de dados de outra aplicação ou gostaria de customizar o Stoq, não "
-"hesite <a href=\"http://www.stoq.com.br/contato\">entrar em contato</a>."
+"hesite <a href=\"http://www.stoq.com.br/contato\">em entrar em contato</a>."
 
 #: ../data/glade/FinishInstallationStep.ui.h:7 ../stoq/gui/shell/shell.py:238
 msgid "Enable online services"
@@ -1029,7 +1028,7 @@ msgstr "De:"
 #: ../data/glade/FiscalMemoryEditor.ui.h:7
 #: ../data/glade/OnSaleInfoSlave.ui.h:5 ../data/glade/QualityTestEditor.ui.h:4
 msgid "To:"
-msgstr "Até:"
+msgstr "Para:"
 
 #: ../data/glade/FiscalMemoryEditor.ui.h:8
 #: ../data/glade/SaleInvoicePrinterDialog.ui.h:2
@@ -1372,7 +1371,7 @@ msgstr "Filtro:"
 
 #: ../data/glade/ParameterSearch.ui.h:2
 msgid "_Show All"
-msgstr "Exibir todo_s"
+msgstr "_Exibir todos"
 
 #: ../data/glade/PasswordEditor.ui.h:1
 msgid "Current Password:"
@@ -1462,7 +1461,7 @@ msgstr "Juros diários:"
 
 #: ../data/glade/PaymentMethodEditor.ui.h:6
 msgid "Default Account:"
-msgstr "Conta principal:"
+msgstr "Conta padrão:"
 
 #: ../data/glade/PaymentRenegotiationPaymentListStep.ui.h:2
 msgid "<b>The following payments will be renegotiated.</b>"
